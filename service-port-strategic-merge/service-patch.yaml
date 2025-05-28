@@ -9,5 +9,7 @@ spec:
   - port: 8000
     targetPort: 8000
     name: http
+    protocol: TCP
   - port: 8080
+    protocol: TCP
     $patch: delete
