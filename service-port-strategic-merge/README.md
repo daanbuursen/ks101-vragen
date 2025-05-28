@@ -63,7 +63,7 @@ Om ook de ServicePort te kunnen lezen (en te zien wat er dus required is):
       ],
       "type": "object"
     },
-    ```
+```
 
 
 Voor de volledigheid komt het stukje ports uit de `io.k8s.api.core.v1.ServiceSpec`
@@ -213,4 +213,4 @@ Voor de volledigheid komt het stukje ports uit de `io.k8s.api.core.v1.ServiceSpe
       },
       "type": "object"
     },
-    ```
+```
