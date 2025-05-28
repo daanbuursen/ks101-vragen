@@ -2,6 +2,10 @@ Omdat we gisteren waarschijnlijk de fout qua inspringen niet zagen hier even een
 
 Waarom dus deleten als we het portnummer willen wijzigen? Omdat het `name` veld optioneel is als er maar één port gedefinieerd staat kan daar niet op gemerged worden. Het enige wat er op required staat in de portspec is de port zelf.
 
+[!WARNING]
+Let op! In onderstaande openapi specificatie staat de merge-key wel op "port", maar de alles uit de list-map-keys array moet gevuld zijn.
+Zowel port als protocol dienen overeen te komen om de juiste port op een service te targetten!
+
 Relevant deel over de ports van de openAPI spec (krijg je met `kustomize openapi fetch`):
 ```
 "ports": {
